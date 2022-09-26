@@ -1,0 +1,20 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 10pt;
+    border: 1px solid #ccc;
+}
+
+td{
+    padding: 8px;
+    height: 50px;
+}
+
+th{
+    background-color: steelblue;
+    color: white;
+    height: 30px;
+}
