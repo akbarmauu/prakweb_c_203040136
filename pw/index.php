@@ -16,7 +16,7 @@ $buku2 = query("SELECT * FROM buku2");
 
 <body>
   <h3>Daftar Buku Novel 2022</h3>
-
+ 
   <button>
     <a href="tambah.php" style="text-decoration:none;color:black;">Tambah Data Buku</a>
   </button>

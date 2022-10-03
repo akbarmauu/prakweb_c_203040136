@@ -9,12 +9,14 @@ table{
 }
 
 td{
+    background-color: rgb(251, 216, 151);
     padding: 8px;
     height: 50px;
 }
 
 th{
-    background-color: steelblue;
+    background-color: goldenrod;
     color: white;
     height: 30px;
 }
+
