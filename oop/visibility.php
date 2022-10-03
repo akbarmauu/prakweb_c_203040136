@@ -50,11 +50,11 @@ class Komik extends Produk {
 class Game extends Produk {
     public $waktuMain;
 
-    public function __construct($judul = "judul", $penulis = "penulis", $penerbit = "penerbit", $harga = 0, $waktuMain = 0){
+    public function __construct($judul = "judul", $penulis = "penulis", $penerbit = "penerbit", $harga = 0, $waktuMain = 0)
     parent::__construct($judul, $penulis, $penerbit, $harga, $waktuMain);
 
     $this->waktuMain = $waktuMain;
- }
+
     public function getInfoProduk(){
         $str = "Game : " . parent ::getInfoProduk() . " -{$this->waktuMain} Jam.";
         return $str;
@@ -76,6 +76,7 @@ $produk2 = new Game("Uncharted", "Neil Duckman", "Sony Computer", 250000, 50);
 echo $produk1->getInfoProduk();
 echo "<br>";
 echo $produk2->getInfoProduk();
+echo "<hr>";
  
 //komik : Naruto | Masashis Kishimoto ,Shonen Jump (Rp. 30000) - 100 halaman
 //Game : uncharted |Neil Duckman, Sony Computer (Rp. 250000) - 50 jam
